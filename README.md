@@ -139,9 +139,9 @@ Master(DSA)/
 └── ...
 ```
 
-## Contributing
+<!-- ## Contributing
 
-Feel free to add implementations, optimize algorithms, or improve documentation.
+Feel free to add implementations, optimize algorithms, or improve documentation. -->
 
 ## License
 
