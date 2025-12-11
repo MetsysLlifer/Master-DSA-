@@ -2,6 +2,11 @@
 #define MAX 10
 #define EMPTY -1
 
+/*
+The implementation is shown in the book
+    - (pg.90 Fig. 3.15.)
+*/ 
+
 typedef struct Tree;
 typedef int header, node;
 
@@ -47,3 +52,4 @@ void initCell(CellElement *CE){
         CE->node[trav] = EMPTY;
     }
 }
+
