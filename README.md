@@ -105,6 +105,22 @@ A comprehensive repository containing implementations and explanations of fundam
 
 ## Getting Started
 
+### Code Documentation
+Throughout this repository, each implementation includes inline comments that reference the source material to help you understand where the concepts come from. For example:
+
+```c
+// Chapter 2.3 STACKS
+// Example 2.2 Text Editor
+// Fig 2.16 Program to carry out effects of erase and kill characters
+
+// Page 53-54
+```
+
+These comments guide you to the exact chapters, examples, figures, and page numbers from the reference textbook, making it easier to study alongside the book.
+
+### Reference Material
+The implementations in this repository are based on the **DSA textbook** (available as `DSA.pdf` in the Book directory). This book provides the theoretical foundation and detailed explanations for all the data structures and algorithms implemented here.
+
 ### Prerequisites
 - C/C++ compiler (clang, gcc)
 - Make utility
