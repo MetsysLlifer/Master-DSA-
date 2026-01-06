@@ -29,12 +29,14 @@
             "id": "2bb8ea4fcfbbc1fd",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/BRAINSTORM.md"
+                "file": "Track.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "BRAINSTORM"
+              "icon": "lucide-file",
+              "title": "Track"
             }
           }
         ]
@@ -200,11 +202,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e253456988d7667d",
+  "active": "2bb8ea4fcfbbc1fd",
   "lastOpenFiles": [
-    "DSA.pdf",
     "Excalidraw/BRAINSTORM.md",
-    "Welcome.md",
+    "Track.md",
+    "DSA.pdf",
     "Excalidraw"
   ]
 }
