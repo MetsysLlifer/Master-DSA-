@@ -1,14 +1,24 @@
 #include "util.h"
 
 
-void makeNull(QueueType* Q){
-    *Q = (QueueType)malloc(sizeof(struct QueueRecord));
-    while((*Q)->front != NULL){
-        record toDelete = (*Q)->front;
-        (*Q)->front = (*Q)->front->next;
-        free(toDelete);
+void makeNull(QueueType* Q) {
+    if (*Q != NULL) {
+        while ((*Q)->front != NULL) {
+            record toDelete = (*Q)->front;
+            (*Q)->front = (*Q)->front->next;
+            free(toDelete);
+        }
+    } else {
+        *Q = (QueueType)malloc(sizeof(struct QueueRecord));
+        if (*Q == NULL) {
+            printf("Memory allocation failed\n");
+            return;
+        }
     }
-    (*Q)->rear = (*Q)->front;
+
+    // Reset pointers to Safe Empty State
+    (*Q)->front = NULL;
+    (*Q)->rear = NULL;
 }
 
 bool empty(QueueType Q){

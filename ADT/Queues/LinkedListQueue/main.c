@@ -11,7 +11,7 @@ The functions are slightly different compared to what the book described
 
 
 int main(){
-    QueueType Q;
+    QueueType Q = NULL;
     makeNull(&Q);
 
     enqueue(&Q, 'A');
@@ -22,7 +22,7 @@ int main(){
     enqueue(&Q, 'B');
     dequeue(&Q);
     enqueue(&Q, 'C');
-    //Expected output: C, A, B, C 
+    //Expected output: C <- A <- B <- C 
 
     checkNodes(Q);
 
