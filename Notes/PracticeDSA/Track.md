@@ -29,7 +29,7 @@
 ## ADT Queue
 
 - [ ] Array of ADT Queue
-- [ ] Linked List implementations of ADT Queue
+- [x] Linked List implementations of ADT Queue
 - [ ] Application in Operating Systems
 
 ## ADT Set and Set Operations

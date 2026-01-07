@@ -51,7 +51,8 @@
               "title": "Track"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,11 +215,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d8623d75f23ae329",
+  "active": "11b01095eb672633",
   "lastOpenFiles": [
+    "Excalidraw/BRAINSTORM.md",
     "DSA.pdf",
     "Track.md",
-    "Excalidraw/BRAINSTORM.md",
     "Excalidraw"
   ]
 }
