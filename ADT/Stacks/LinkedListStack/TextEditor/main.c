@@ -1,6 +1,7 @@
 #include "util.h"
 
 // Chapter 2.3 STACKS
+// A Pointer Implementation of Stacks
 // Example 2.2 Text Editor
 // Fig 2.16 Program to carry out effects of erase and kill characters
 
