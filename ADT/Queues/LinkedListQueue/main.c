@@ -22,7 +22,7 @@ int main(){
     enqueue(&Q, 'B');
     dequeue(&Q);
     enqueue(&Q, 'C');
-    //Expected output: C <- A <- B <- C 
+    //Expected output: C -> A -> B -> C 
 
     checkNodes(Q);
 

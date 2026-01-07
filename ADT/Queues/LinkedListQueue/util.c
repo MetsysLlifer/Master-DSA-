@@ -69,7 +69,7 @@ void checkNodes(QueueType Q){
     record trav = Q->front;
     printf("Queue: ");
     while(trav != NULL){
-        printf("%c%s", trav->value, trav->next!=NULL? " <- ": "\n");
+        printf("%c%s", trav->value, trav->next!=NULL? " -> ": "\n");
         trav = trav->next;
     }
 }

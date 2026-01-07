@@ -6,6 +6,7 @@
       {
         "id": "d5a01c392b4ed369",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "d8623d75f23ae329",
@@ -24,6 +25,7 @@
       {
         "id": "ede8bdf357ebd8b8",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "2bb8ea4fcfbbc1fd",
@@ -51,7 +53,8 @@
               "title": "Track"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,11 +217,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d8623d75f23ae329",
+  "active": "11b01095eb672633",
   "lastOpenFiles": [
-    "DSA.pdf",
-    "Track.md",
     "Excalidraw/BRAINSTORM.md",
+    "Track.md",
+    "DSA.pdf",
+    "Alfred V. Aho - Data Structures and Algorithms.pdf",
     "Excalidraw"
   ]
 }

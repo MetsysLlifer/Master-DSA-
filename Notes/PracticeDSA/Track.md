@@ -28,7 +28,7 @@
 
 ## ADT Queue
 
-- [ ] Array of ADT Queue
+- [x] Circular Array of ADT Queue
 - [x] Linked List implementations of ADT Queue
 - [ ] Application in Operating Systems
 
