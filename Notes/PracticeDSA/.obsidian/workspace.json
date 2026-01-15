@@ -6,7 +6,6 @@
       {
         "id": "d5a01c392b4ed369",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "d8623d75f23ae329",
@@ -21,40 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "ede8bdf357ebd8b8",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "2bb8ea4fcfbbc1fd",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DSA.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DSA"
-            }
-          },
-          {
-            "id": "11b01095eb672633",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Track.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Track"
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -217,11 +182,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "11b01095eb672633",
+  "active": "ced83fd3e4ea1170",
   "lastOpenFiles": [
     "Excalidraw/BRAINSTORM.md",
+    "Excalidraw/LEVELING SYSTEM.md",
     "Track.md",
+    "The macOS Ghost Overlay.md",
     "DSA.pdf",
+    "Excalidraw/Solo Leveling System.md",
     "Alfred V. Aho - Data Structures and Algorithms.pdf",
     "Excalidraw"
   ]
