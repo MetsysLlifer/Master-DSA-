@@ -1,8 +1,17 @@
-run: main.o
-	clang main.o -o run
+CC = clang
+OUT = system
+OBJS = main.o 
 
-main.o: main.c
-	clang -c main.c
+all: $(OUT)
+
+$(OUT): $(OBJS)
+	$(CC) $(OBJS) -o $(OUT)
+
+%.o: %.c
+	$(CC) -c $< -o $@
+
+run: $(OUT)
+	./$(OUT)
 
 clean:
-	rm *.o -f run
+	rm -f *.o $(OUT)

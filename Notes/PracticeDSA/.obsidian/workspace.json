@@ -18,8 +18,21 @@
               "icon": "excalidraw-icon",
               "title": "BRAINSTORM"
             }
+          },
+          {
+            "id": "2f64c8346f7178df",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +195,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ced83fd3e4ea1170",
+  "active": "ebe1bb81a4fc2568",
   "lastOpenFiles": [
     "Excalidraw/BRAINSTORM.md",
     "Excalidraw/LEVELING SYSTEM.md",
