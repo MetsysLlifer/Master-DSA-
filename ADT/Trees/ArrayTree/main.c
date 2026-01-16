@@ -3,6 +3,8 @@
 #include <math.h>
 #define MAX 63
 
+// 63 is the maximum value to display complete tree in the terminal. Beyond this number will cause chatic pattern in the terminal.
+
 // Chapter 3.3 
 // IMPLEMENTATIONS OF TREES
 
