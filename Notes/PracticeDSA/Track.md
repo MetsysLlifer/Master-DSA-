@@ -14,10 +14,10 @@
   
 ## Linked List
   
-- [ ] Singly linked list
+- [x] Singly linked list
 - [ ] Doubly linked list
-- [ ] Pointer to a node traversal
-- [ ] Pointer to a pointer to a node traversal
+- [x] Pointer to a node traversal
+- [x] Pointer to a pointer to a node traversal
 - [ ] Head Node, Head & tail pointers
 
 ## ADT Stack
@@ -54,11 +54,11 @@
 #### Tree Traversals
 - [ ] Breadth-First
 - [ ] Depth-First
-- [ ] Preorder
+- [x] Preorder
 - [ ] Postorder
 - [ ] Inorder
 #### Binary Trees
-- [ ] Expression Trees
+- [x] Expression Trees
 - [ ] Application of Binary Trees (Huffman code)
 - [ ] Binary Search Trees (BST) and AVL Trees
 - [ ] BST vs. Binary Search
