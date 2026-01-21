@@ -64,6 +64,7 @@ int main(){
     return 0;
 }
 
+
 void initArray(int* arr, int size){
     for(int trav = 0; trav < size; trav++){
         arr[trav] = 0;
