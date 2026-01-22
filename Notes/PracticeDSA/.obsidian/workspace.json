@@ -11,14 +11,12 @@
             "id": "d8623d75f23ae329",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Track.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/BRAINSTORM.md"
               },
-              "icon": "lucide-file",
-              "title": "Track"
+              "icon": "excalidraw-icon",
+              "title": "BRAINSTORM"
             }
           }
         ]
@@ -186,10 +184,11 @@
   },
   "active": "d8623d75f23ae329",
   "lastOpenFiles": [
-    "DSA.pdf",
+    "Excalidraw/Drawing 2026-01-22 10.02.06.excalidraw.md",
     "Excalidraw/BRAINSTORM.md",
-    "Excalidraw/LEVELING SYSTEM.md",
     "Track.md",
+    "DSA.pdf",
+    "Excalidraw/LEVELING SYSTEM.md",
     "The macOS Ghost Overlay.md",
     "Excalidraw/Solo Leveling System.md",
     "Alfred V. Aho - Data Structures and Algorithms.pdf",
