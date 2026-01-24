@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d5a01c392b4ed369",
+        "id": "36df96dc953d039a",
         "type": "tabs",
         "children": [
           {
-            "id": "d8623d75f23ae329",
+            "id": "4d951a6b40bbc0f2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "pdf",
               "state": {
-                "file": "Excalidraw/BRAINSTORM.md"
+                "file": "DSA.pdf"
               },
-              "icon": "excalidraw-icon",
-              "title": "BRAINSTORM"
+              "icon": "lucide-file-text",
+              "title": "DSA"
             }
           }
         ]
@@ -182,11 +182,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d8623d75f23ae329",
+  "active": "4d951a6b40bbc0f2",
   "lastOpenFiles": [
     "Track.md",
-    "DSA.pdf",
     "Excalidraw/BRAINSTORM.md",
+    "DSA.pdf",
     "Excalidraw/Drawing 2026-01-22 10.02.06.excalidraw.md",
     "Excalidraw/LEVELING SYSTEM.md",
     "The macOS Ghost Overlay.md",
