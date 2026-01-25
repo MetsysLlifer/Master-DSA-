@@ -11,12 +11,12 @@
             "id": "4d951a6b40bbc0f2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "excalidraw",
               "state": {
-                "file": "DSA.pdf"
+                "file": "Excalidraw/BRAINSTORM.md"
               },
-              "icon": "lucide-file-text",
-              "title": "DSA"
+              "icon": "excalidraw-icon",
+              "title": "BRAINSTORM"
             }
           }
         ]
@@ -184,9 +184,9 @@
   },
   "active": "4d951a6b40bbc0f2",
   "lastOpenFiles": [
+    "DSA.pdf",
     "Track.md",
     "Excalidraw/BRAINSTORM.md",
-    "DSA.pdf",
     "Excalidraw/Drawing 2026-01-22 10.02.06.excalidraw.md",
     "Excalidraw/LEVELING SYSTEM.md",
     "The macOS Ghost Overlay.md",

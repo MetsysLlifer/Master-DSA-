@@ -17,18 +17,23 @@ int main(){
     return 0;
 }
 
-// Incomplete
-void quickSort(int* arr, int firstPos, int lastPos){
-int pivotIndex = lastPos - 1;
-    int pivotValue = arr[pivotIndex]; // Store value for clarity
+void quickSort(int* arr, int firstPos, int lastPos) {
+    // 1. Base Case: If the range has 0 or 1 element, it's already sorted.
+    if (firstPos >= lastPos) {
+        return;
+    }
+
+    // --- Partitioning Logic (Lomuto Scheme) ---
+    // We choose the last element as the pivot
+    int pivotValue = arr[lastPos]; 
     
-    // Standard Lomuto: Start 'pointA' (often called 'i') behind the start
+    // 'pointA' tracks the tail of the "smaller than pivot" section
     int pointA = firstPos - 1; 
 
-    for(int trav = firstPos; trav < lastPos; trav++){
+    for (int trav = firstPos; trav < lastPos; trav++) {
         // If current element is smaller than or equal to pivot
-        if(arr[trav] <= pivotValue){
-            pointA++; // Move boundary of "smaller elements" forward
+        if (arr[trav] <= pivotValue) {
+            pointA++; 
             
             // Swap current element to the "smaller" section
             int temp = arr[pointA];
@@ -37,10 +42,20 @@ int pivotIndex = lastPos - 1;
         }
     }
 
-    // Swap the pivot into its correct slot (right after the smaller elements)
-    int temp = arr[pointA + 1];
-    arr[pointA + 1] = arr[pivotIndex];
-    arr[pivotIndex] = temp;
+    // Place the pivot in its correct sorted position
+    // (Right after the last smaller element)
+    int partitionIndex = pointA + 1;
+    int temp = arr[partitionIndex];
+    arr[partitionIndex] = arr[lastPos];
+    arr[lastPos] = temp;
+    // -------------------------------------------
+
+    // 2. Recursive Calls
+    // Sort the Left Subarray (elements smaller than pivot)
+    quickSort(arr, firstPos, partitionIndex - 1);
+
+    // Sort the Right Subarray (elements larger than pivot)
+    quickSort(arr, partitionIndex + 1, lastPos);
 }
 
 void populateArray(int* arr, int size){
